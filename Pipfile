@@ -9,6 +9,7 @@ verify_ssl = true
 requests = "*"
 ipython = "*"
 boto3 = "*"
+click = "*"
 
 [requires]
 python_version = "3.8"
