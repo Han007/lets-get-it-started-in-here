@@ -19,6 +19,8 @@ The projects include the following:
 	`aws configure --profile shotty`
 	
 	After installing boto3, list all the EC2 instances, and use `%history` to copy code and paste it in shotty.py.
-	Running: `pipenv run "python shotty/shotty.py"`
+	Running: `pipenv run python shotty/shotty.py <command> <--project=PROJECT>`
 	
+	where *command* is list, start, or stop;
+		  *project* is the tag Value matching the tag Key `project` given to the ec2 instances 
 	
